@@ -1,3 +1,4 @@
+# superBido ;)
 def power_num(num,powe):
 	result = num ** powe
 	return result
@@ -18,4 +19,7 @@ def Power_digit_sum(num,powe):
 	for n in ls_for_sum:
 		d_sum += n
 	return d_sum	
+
+print Power_digit_sum(2,15)
+#>>> 26
 print Power_digit_sum(2,1000)
